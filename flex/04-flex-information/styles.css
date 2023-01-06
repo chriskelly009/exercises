@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+.title {
+    margin-bottom: 32px;
+}
+img {
+    width: 200px;
+}
+
+.images {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    gap: 52px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.images-text {
+    /* background-color: rgb(209, 80, 80); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+    width: 200px; 
+}
+@media screen and (max-width: 950px){
+    .images {
+        flex-wrap: wrap;
+    }
+}
