@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: purple;
+    background-color: lightgray;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    background-color: white;
+}
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+img {
+    width: 50px;
+}
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    font-style: italic;
+}
+a {
+    color: purple;
+    text-decoration: none;
+    font-size: 21px;
+}
+button {
+    background-color: purple;
+    border-radius: 10px;
+    padding: 10px;
+    /* width: 200px; */
+}
+
+button a {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    /* word-spacing: 3px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
